@@ -96,12 +96,12 @@ namespace YiGuCommand
 
                     if (relation < 70.0f)
                     {
-                        // 小于70时，增加百分比（例如每差1点增加5%）
-                        percentageBonus = (70.0f - relation) * 0.05f;  // 每小于1的关系值增加2%
+                        // 小于70时，增加百分比（每差1点增加5%）
+                        percentageBonus = (70.0f - relation) * 0.05f;  // 每小于1的关系值增加5%
                     }
                     else
                     {
-                        // 大于70时，减少百分比（例如每差1点减少1.5%）
+                        // 大于70时，减少百分比（每差1点减少1.5%）
                         percentageBonus = (relation - 70.0f) * -0.015f;  // 每大于1的关系值减少1.5%
                     }
 
