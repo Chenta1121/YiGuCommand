@@ -94,7 +94,7 @@ namespace YiGuCommand
 
 
 
-        // 修改函数返回类型为 string，根据不同的执行情况返回提示信息
+        // 根据不同的执行情况返回提示信息
         private static UpdateStatus UpdateHeroSpeciality(SpecialityCoreBehavior behavior, Hero hero, string oldSpecialityId = null, string newSpecialityId = null, int initLevel = 1, int maxLevel = 10)
         {
             // 获取 heroToSpecialityDict 字段信息
