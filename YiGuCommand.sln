@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiGuCommand", "YiGuCommand.csproj", "{4E371109-3713-4C12-8CB4-1E400D1649B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E371109-3713-4C12-8CB4-1E400D1649B5}.Debug|x64.ActiveCfg = Debug|x64
+		{4E371109-3713-4C12-8CB4-1E400D1649B5}.Debug|x64.Build.0 = Debug|x64
+		{4E371109-3713-4C12-8CB4-1E400D1649B5}.Release|x64.ActiveCfg = Release|x64
+		{4E371109-3713-4C12-8CB4-1E400D1649B5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C198CF1-ABE0-4AF7-BBE0-BEB3EB04ABDA}
+	EndGlobalSection
+EndGlobal
